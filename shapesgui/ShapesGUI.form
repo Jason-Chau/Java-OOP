@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="btnRectangularPrism" max="32767" attributes="0"/>
+          <Component id="btnCircle" alignment="0" max="32767" attributes="0"/>
+          <Component id="btnRectangle" alignment="0" max="32767" attributes="0"/>
+          <Component id="btnTriangle" alignment="0" max="32767" attributes="0"/>
+          <Component id="btnCylinder" alignment="0" max="32767" attributes="0"/>
+          <Component id="btnTriangularPrism" alignment="0" max="32767" attributes="0"/>
+          <Component id="btnSphere" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="btnCircle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnRectangle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnTriangle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnCylinder" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnRectangularPrism" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnTriangularPrism" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnSphere" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnCircle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Circle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRectangle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rectangle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTriangle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Triangle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCylinder">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cylinder"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRectangularPrism">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rectangular Prism"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTriangularPrism">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Triangular Prism"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSphere">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sphere"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
